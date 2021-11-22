@@ -4,10 +4,12 @@ import 'dart:math';
 //This is Starting Point!
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Scaffold(
       backgroundColor: Colors.cyan.shade800,
       appBar: AppBar(
-        title: Text('dice'),
+        centerTitle: true,
+        title: Text('تاس تخته نرد' , textAlign: TextAlign.right,),
         backgroundColor: Colors.cyan.shade900,
       ),
       body: DicePage(),
