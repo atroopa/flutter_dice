@@ -1,6 +1,6 @@
-# begginer
+# Flutter Dice
 
-A new Flutter project.
+A new Flutter super project.
 
 ## Getting Started
 
